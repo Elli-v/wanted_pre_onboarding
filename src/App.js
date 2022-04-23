@@ -2,6 +2,8 @@
 import './App.css';
 import Toggle from './components/Toggle';
 import Tab from './components/Tab';
+import Slider from './components/Slider';
+import Input from './components/Input';
 
 function App() {
   return (
@@ -13,6 +15,10 @@ function App() {
         <div className="CompoBody">
           <ol>
             <li className="Compo">
+              <span className="name">Input.js</span>
+              <Input></Input>
+            </li>
+            <li className="Compo">
               <span className="name">Toggle.js</span>
               <Toggle></Toggle>
             </li>
@@ -21,7 +27,8 @@ function App() {
               <Tab></Tab>
             </li>
             <li className="Compo">
-              <span className="name">123</span>
+              <span className="name">Slider.js</span>
+              <Slider></Slider>
             </li>
           </ol>
         </div>

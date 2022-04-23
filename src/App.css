@@ -38,8 +38,20 @@
   }
 }
 .CompoBody{
-  background-color: #282c34;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.Compo{
+  display: flex;
+	height: 100px;
+	width: 500px;
+  text-align: center;
+}
+
+.name{
+	height: 20px;
+	width: 100px;
+  background-color: #b8c6e1;
 }

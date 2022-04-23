@@ -11,14 +11,19 @@ function App() {
         <div> [ FRONT-END ] </div>
       </header>
         <div className="CompoBody">
-          <div className="Compo00">
-            <span>Toggle.js</span>
-            <Toggle></Toggle>
-          </div>
-          <div className="Compo01">
-            <span>Tab.js</span>
-            <Tab></Tab></div>
-          <div className="Compo02">        </div>
+          <ol>
+            <li className="Compo">
+              <span className="name">Toggle.js</span>
+              <Toggle></Toggle>
+            </li>
+            <li className="Compo">
+            <span className="name">Tab.js</span>
+              <Tab></Tab>
+            </li>
+            <li className="Compo">
+              <span className="name">123</span>
+            </li>
+          </ol>
         </div>
     </div>
   );

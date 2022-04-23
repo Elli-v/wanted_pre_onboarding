@@ -1,0 +1,37 @@
+.tab-block{
+	// position: relative;
+	display: flex;
+	width: 360px;
+	height: 40px;
+	background-color: white;
+}
+
+.tabs{
+	width: 120px;
+	border-style: solid;
+	border-width: 0 0 2px 0;
+	border-color: rgb(134, 134, 134);
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	opacity: 0.6;
+	background-color: transparent;
+	cursor: pointer;
+	transition: .3s;
+}
+.active-tabs{
+	width: 120px;
+	border: 0;
+	outline: 0;
+	border-style: solid;
+	border-width: 0 0 2px 0;
+	border-color: rgb(0, 168, 201);
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgb(56, 56, 56);
+	background-color: transparent;
+
+}

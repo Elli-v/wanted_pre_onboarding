@@ -1,0 +1,94 @@
+.input{
+	width: 360px;
+	height: 100px;
+	position: relative;
+}
+.email{
+	width: 360px;
+	height: 50px;
+}
+.e-div{
+	width: 360px;
+	height: 20px;
+	font-size: 12px;
+	text-align: left;
+	padding: 0px 5px;
+}
+.e-box{
+	display: flex;
+}
+.e-input{
+	text-decoration: none;
+    width: 100%;
+    height: 30px;
+	padding: 0px 15px;
+	font-size: 17px;
+	color: #676767;
+	border-radius: 8px;
+	border: 1.5px solid #ddd;
+}
+
+.vaildMsg{
+	width: 100%;
+	padding: 3px 5px 10px 5px;
+	font-size: 12px;
+	text-align: left;
+	color: rgb(197, 43, 43);
+}
+
+.password{
+	width: 360px;
+	height: 50px;
+}
+.p-div{
+	width: 360px;
+	height: 20px;
+	font-size: 12px;
+	text-align: left;
+	padding: 0px 5px;
+}
+.p-box{
+	display: flex;
+}
+.p-input{
+	text-decoration: none;
+    width: 100%;
+    height: 30px;
+	padding: 0px 15px;
+	font-size: 17px;
+	color: #676767;
+	border-radius: 8px;
+	border: 1.5px solid #ddd;
+}
+
+.active-icon{
+	color: #10afaf;
+	padding: 8px 30px;
+	right: -20px;
+	text-align: center;
+	position: absolute;
+}
+
+.icon{
+	color: #dcdcdb;
+	padding: 8px 30px;
+	right: -20px;
+	text-align: center;
+	position: absolute;
+}
+
+.show{
+	color: #10afaf;
+	padding: 8px 30px;
+	right: -20px;
+	text-align: center;
+	position: absolute;
+}
+
+.hide{
+	color: #dcdcdb;
+	padding: 8px 30px;
+	right: -20px;
+	text-align: center;
+	position: absolute;
+}

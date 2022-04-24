@@ -37,6 +37,7 @@
 	background: #00a8c9;
 	margin-bottom: 15px;
 	accent-color: #00a8c9;
+	cursor: pointer;
 }
 
 .sliderBar::-webkit-slider-thumb {
@@ -46,6 +47,7 @@
 	height: 20px;
 	width: 20px;
 	background: #00a8c9;
+	cursor: pointer;
 	box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -63,6 +65,7 @@
 	  display: flex;
 	  justify-content: center;
 	  align-items: center;
+	  cursor: pointer;
 	  :hover {
 		background: #00a8c9;
 		color: #fff;

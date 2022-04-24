@@ -15,10 +15,6 @@ function App() {
         <div className="CompoBody">
           <ol>
             <li className="Compo">
-              <span className="name">Input.js</span>
-              <Input></Input>
-            </li>
-            <li className="Compo">
               <span className="name">Toggle.js</span>
               <Toggle></Toggle>
             </li>
@@ -29,6 +25,10 @@ function App() {
             <li className="Compo">
               <span className="name">Slider.js</span>
               <Slider></Slider>
+            </li>
+            <li className="Compo">
+              <span className="name">Input.js</span>
+              <Input></Input>
             </li>
           </ol>
         </div>

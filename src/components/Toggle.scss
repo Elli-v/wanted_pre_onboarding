@@ -7,9 +7,9 @@
 		transform: translateX(-100%);
 	}
 	&:checked + .toggle-label .text1 {color: #7e7e7e;}
-	&:checked + .toggle-label .text2 {color: #000000;}
+	&:checked + .toggle-label .text2 {color: #00a8c9;;}
 	&:not(:checked) + .toggle-label .text2 {color: #7e7e7e;}
-	&:not(:checked) + .toggle-label .text1 {color: #000000;}
+	&:not(:checked) + .toggle-label .text1 {color: #00a8c9;;}
 }
 
 .toggle-label {

@@ -4,33 +4,29 @@ import Toggle from './components/Toggle';
 import Tab from './components/Tab';
 import Slider from './components/Slider';
 import Input from './components/Input';
+import Dropdown from './components/Dropdown';
 
 function App() {
   return (
     <div className="App">
       <header className='App-header'>
         <div>WANTED-PRE-ONBOARDING</div>
-        <div> [ FRONT-END ] </div>
+        <div> [ FRONT-END ] - 오수빈</div>
       </header>
         <div className="CompoBody">
-          <ol>
-            <li className="Compo">
-              <span className="name">Toggle.js</span>
+          <div>
               <Toggle></Toggle>
-            </li>
-            <li className="Compo">
-            <span className="name">Tab.js</span>
+              <hr />
               <Tab></Tab>
-            </li>
-            <li className="Compo">
-              <span className="name">Slider.js</span>
+              <hr />
               <Slider></Slider>
-            </li>
-            <li className="Compo">
-              <span className="name">Input.js</span>
+              <hr />
               <Input></Input>
-            </li>
-          </ol>
+              <hr />
+              <Dropdown></Dropdown>
+          </div>
+
+
         </div>
     </div>
   );

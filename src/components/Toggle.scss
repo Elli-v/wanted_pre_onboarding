@@ -1,3 +1,10 @@
+.toggle{
+	height: 70px;
+	width: 360px;
+	position: relative;
+    display: flex;
+}
+
 .toggle-checkbox {
 	height: 0;
 	width: 0;
@@ -19,7 +26,7 @@
 	width: 360px;
 	padding: 2px;
 	border-radius: 70px;
-	background: rgb(187, 187, 187);
+	background: #dcdcdb;
 	align-items: center;
 	cursor: pointer;
 	transition: background-color .2s;

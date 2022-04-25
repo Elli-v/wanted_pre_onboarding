@@ -1,23 +1,23 @@
 .input{
 	width: 360px;
-	height: 100px;
+	height: 170px;
 	position: relative;
 }
-.email{
+.toggleInput{
 	width: 360px;
 	height: 50px;
 }
-.e-div{
+.div{
 	width: 360px;
 	height: 20px;
 	font-size: 12px;
 	text-align: left;
 	padding: 0px 5px;
 }
-.e-box{
+.box{
 	display: flex;
 }
-.e-input{
+.inputbox{
 	text-decoration: none;
     width: 100%;
     height: 30px;
@@ -36,59 +36,27 @@
 	color: rgb(197, 43, 43);
 }
 
-.password{
-	width: 360px;
-	height: 50px;
-}
-.p-div{
-	width: 360px;
-	height: 20px;
-	font-size: 12px;
-	text-align: left;
-	padding: 0px 5px;
-}
-.p-box{
-	display: flex;
-}
-.p-input{
-	text-decoration: none;
-    width: 100%;
-    height: 30px;
-	padding: 0px 15px;
-	font-size: 17px;
-	color: #676767;
-	border-radius: 8px;
-	border: 1.5px solid #ddd;
+@mixin icon-set($color: #dcdcdb) {
+	color: $color;
+	padding: 8px 30px;
+	right: -20px;
+	text-align: center;
+	position: absolute;
+	
 }
 
 .active-icon{
-	color: #10afaf;
-	padding: 8px 30px;
-	right: -20px;
-	text-align: center;
-	position: absolute;
+	@include icon-set(#10afaf);
 }
 
-.icon{
-	color: #dcdcdb;
-	padding: 8px 30px;
-	right: -20px;
-	text-align: center;
-	position: absolute;
+.inactive-icon{
+	@include icon-set();
 }
 
 .show{
-	color: #10afaf;
-	padding: 8px 30px;
-	right: -20px;
-	text-align: center;
-	position: absolute;
+	@include icon-set(#10afaf);
 }
 
 .hide{
-	color: #dcdcdb;
-	padding: 8px 30px;
-	right: -20px;
-	text-align: center;
-	position: absolute;
+	@include icon-set();
 }

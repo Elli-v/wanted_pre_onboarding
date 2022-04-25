@@ -1,5 +1,11 @@
+.tab{
+	height: 70px;
+	width: 360px;
+	position: relative;
+    display: flex;
+}
+
 .tab-block{
-	// position: relative;
 	display: flex;
 	width: 360px;
 	height: 40px;
@@ -10,7 +16,7 @@
 	width: 120px;
 	border-style: solid;
 	border-width: 0 0 2px 0;
-	border-color: rgb(134, 134, 134);
+	border-color: #dcdcdb;
 	text-decoration: none;
 	text-align: center;
 	font-weight: bold;

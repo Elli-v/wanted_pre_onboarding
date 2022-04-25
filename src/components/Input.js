@@ -29,30 +29,32 @@ const Input = () =>{
 		else setType("text");
 		setShow(!isShow);
 	};
-
 	
 	return (
-		<div className="input">
-			<div className="email">
-				<div className="e-div">E-mail</div>
-				<div className="e-box">
-					<input className="e-input"
-						type="email"
-						placeholder="E-mail"
-						onChange={emailChecking}>
-					</input>
-					<div className="e-icon">
-						<BsFillCheckCircleFill className={isActive ? "active-icon" : "icon"}/>	
+		<div>
+            <h2>Toggle.js</h2>
+			<div className="input">
+				<div className="toggleInput">
+					<div className="div">E-mail</div>
+					<div className="box">
+						<input className="inputbox"
+							type="email"
+							placeholder="E-mail"
+							onChange={emailChecking}>
+						</input>
+						<div className="e-icon">
+							<BsFillCheckCircleFill className={isActive ? "active-icon" : "inactive-icon"}/>	
+						</div>
 					</div>
 				</div>
-			</div>
-			<div className="vaildMsg">{isActive ? "  " : "Invaild E-mail address."}</div>
-			<div className="password">
-				<div className="p-div">Password</div>
-				<div className="p-box">
-					<input className="p-input" type={isType} placeholder="Password"></input>
-					{isShow ? <ImEye className="show" onClick={passwordChecking}/> 
-					: <ImEyeBlocked className="hide" onClick={passwordChecking}/>}
+				<div className="vaildMsg">{isActive ? "  " : "Invaild E-mail address."}</div>
+				<div className="toggleInput">
+					<div className="div">Password</div>
+					<div className="box">
+						<input className="inputbox" type={isType} placeholder="Password"></input>
+						{isShow ? <ImEye className="show" onClick={passwordChecking}/> 
+						: <ImEyeBlocked className="hide" onClick={passwordChecking}/>}
+					</div>
 				</div>
 			</div>
 		</div>

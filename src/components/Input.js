@@ -32,7 +32,7 @@ const Input = () =>{
 	
 	return (
 		<div>
-            <h2>Toggle.js</h2>
+            <h2>Input.js</h2>
 			<div className="input">
 				<div className="toggleInput">
 					<div className="div">E-mail</div>

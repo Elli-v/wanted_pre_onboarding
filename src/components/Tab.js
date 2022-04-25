@@ -2,7 +2,6 @@ import "./Tab.scss"
 import React, { useState } from 'react';
 
 const Tab = () =>{
-
 	const [toggleState, setToggleState] = useState(1);
 	const clickTab = (index) => {
 		setToggleState(index);

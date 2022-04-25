@@ -5,26 +5,26 @@ import { FaAngleDown } from "react-icons/fa";
 const Dropdown = () =>{
 
     const [value, setClick] = useState("All Symbols");
-	
-	useEffect(() => {
-        listToggleFunction();
-    }, [value]);
 
     const listToggleFunction = () => {
         document.getElementById("dropdown").classList.toggle("show");
     };
 
+	useEffect(() => {
+        listToggleFunction();
+    }, [value]);
+
 	return (
         <div>
             <h2>Dropdown.js</h2>
             <div className="dropdown">
-                <div className="container">
+                <div className="dropdownBox">
                     <input id="dropdown" type="checkbox"></input>
                     <label className="dropdownLabel" for="dropdown">
                     <div>{value}</div>
                     <FaAngleDown className="icon" />
                     </label>
-                    <div className="content"
+                    <div className="valueBox"
                         onClick={(e) => {
                             setClick(e.target.innerText);
                         }}>

@@ -29,8 +29,7 @@ const Slider = () =>{
 					<div className="sliderPercent">
 						{percentList.map((e) => {
 							return (
-							<div
-								key={e.id}
+							<div key={e.id}
 								onClick={() => {setValue(e);}}>
 								{e}%
 							</div>

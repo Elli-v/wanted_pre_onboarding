@@ -1,7 +1,7 @@
 import "./Toggle.scss"
 
 const Toggle = (props) =>{
-	const { isChecked, handleToggle } = props;
+	const { isChecked, clickToggle } = props;
 
 	return (
 		<div>
@@ -12,7 +12,7 @@ const Toggle = (props) =>{
 					id={'toggle-input'}
 					type="checkbox" 
 					checked={isChecked}
-					onChange={handleToggle}/>
+					onChange={clickToggle}/>
 				<label
 					className="toggle-label"
 					htmlFor={'toggle-input'}>

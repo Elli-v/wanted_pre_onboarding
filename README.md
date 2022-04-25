@@ -2,6 +2,7 @@
 
 ## Toggle
 ![Toggle](https://user-images.githubusercontent.com/67228788/165071658-fa436bc1-ecbf-4756-a023-6555f0d8f485.gif)
+
 핵심 요소 : 버튼을 누를 때 마다 선택된 항목이 변한다.
 부가 요소 : 슬라이드 애니메이션
 ``` 
@@ -12,6 +13,7 @@
 
 ## Tab
 ![Tab](https://user-images.githubusercontent.com/67228788/165077831-254ccdb8-4666-4815-9851-0b17493033f3.gif)
+
 핵심 요소 : 버튼을 누를 때 마다 선택된 탭이 변한다.
 부가 요소 : 슬라이드 애니메이션
 ``` 
@@ -21,6 +23,7 @@ transition 효과를 넣어서 슬라이드처럼 보이게 했다.
 
 ## Slider
 ![Slider](https://user-images.githubusercontent.com/67228788/165080999-9c5bdea2-fbdb-4e06-8051-b77b12c7e94c.gif)
+
 핵심 요소 : 슬라이더를 움직이면 상단의 값이 자동으로 변한다.
 부가 요소 : 하단 버튼과 미려한 픽셀 매칭
 ``` 
@@ -30,6 +33,7 @@ percentList를 클릭했을 때 {setValue}으로 상태값을 변경한다.
 
 ## Input
 ![Input](https://user-images.githubusercontent.com/67228788/165082632-64db699d-6952-4c1c-b1b3-2b63d91dca52.gif)
+
 핵심 요소 : 인풋창에 이메일과 비밀번호 입력이 가능하다
 부가 요소 : 이메일 형식에 맞을 경우 자동으로 체크 표시
 부가 요소 : 비밀번호 입력란 우측 눈 표시를 누르면 비밀번호가 노출된다
@@ -55,6 +59,7 @@ const checkEmail = (e) => {
 
 ## Dropdown
 ![Dropdown](https://user-images.githubusercontent.com/67228788/165085759-3c63b2e0-c731-4242-bc4b-918f096d08d5.gif)
+
 핵심 요소 : 드롭다운을 누르면 선택창이 펼쳐지고, 아무거나 골라 클릭하면 선택된 항목으로 변경됨
 부가 요소 : 키워드 필터 기능 구현
 ``` 
